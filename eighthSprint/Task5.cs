@@ -57,11 +57,6 @@ namespace FirstSpring
             }
         );
     }
-    class ThreadsDemo {
-        public static void ExtraEvaluation(int a) 
-        {
-            a++;
-        }
-    }
+    
 
 }
