@@ -33,11 +33,7 @@ class Cat : IMoving, IEating, IBasking
         public void Bask()
         {
             Console.WriteLine("Chuh-Chuh-Chuh...");
-        }
-        public void Move()
-        {
-            Console.WriteLine("I can jump!");
-        }
+        }        
         public void Eat()
         {
             Console.WriteLine("Oh! My seeds and fruits!");
@@ -47,10 +43,7 @@ class Cat : IMoving, IEating, IBasking
         {
             Console.WriteLine("Krya-Krya-Krya...");
         }
-        public void Fly()
-        {
-            Console.WriteLine("I believe, I can fly");
-        }
+        
     }
     class Duck : Bird, IFlyable, IKryaking, IMoving, IEating
     {
@@ -62,14 +55,7 @@ class Cat : IMoving, IEating, IBasking
         {
             Console.WriteLine("Krya-Krya!");
         }
-        public void Fly()
-        {
-            Console.WriteLine("I believe, I can fly");
-        }
-        public void Eat()
-        {
-            Console.WriteLine("Oh! My corn!");
-        }
+               
     }
     public interface IMoving
     {
